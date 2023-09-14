@@ -1,0 +1,30 @@
+_id: req_959c5a1c1cc9497391db9ea24641163e
+type: Request
+parentId: fld_6e7eee89512a40caa9d9357b6ad33306
+modified: 1694689854198
+created: 1694687667162
+url: "{{ _.base_url }}/{{ _.version
+  }}/contract-account-service/contract-account?$top=30"
+name: Top Query
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-x-sap-crm-token
+    value: "{{ _.token }}"
+    id: pair_a4ba9cc364fa4174a08412937ce004de
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.user }}"
+  password: "{{ _.pwd }}"
+metaSortKey: -1694687667162
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

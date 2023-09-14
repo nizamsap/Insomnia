@@ -1,0 +1,16 @@
+_id: env_d29a298242a6423fbcdaaf6518d4205a
+type: Environment
+parentId: wrk_1998a6995d074657a45c6fa42be19193
+modified: 1694686841244
+created: 1694682855840
+name: Base Environment
+data:
+  version: sap/c4c/api/v1
+  pwd: North$tar1
+dataPropertyOrder:
+  "&":
+    - version
+    - pwd
+color: null
+isPrivate: false
+metaSortKey: 1694681907486

@@ -1,0 +1,17 @@
+_id: fld_b8b0f134d6954662aa88273917103b3e
+type: RequestGroup
+parentId: wrk_1998a6995d074657a45c6fa42be19193
+modified: 1694687465435
+created: 1694682855860
+name: Sandbox
+description: ""
+environment:
+  token: oiuyo
+  base_url: https://nsd1-dev.cxm-salescloud.com
+  user: jim.kirk@salescloud.com
+environmentPropertyOrder:
+  "&":
+    - token
+    - base_url
+    - user
+metaSortKey: -1694682686010

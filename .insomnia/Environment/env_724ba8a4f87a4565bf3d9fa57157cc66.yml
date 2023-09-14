@@ -1,0 +1,18 @@
+_id: env_724ba8a4f87a4565bf3d9fa57157cc66
+type: Environment
+parentId: env_d29a298242a6423fbcdaaf6518d4205a
+modified: 1694687198856
+created: 1694686781228
+name: Sandbox
+data:
+  token: oiuyo
+  base_url: https://nsd1-dev.cxm-salescloud.com
+  user: jim.kirk@salescloud.com
+dataPropertyOrder:
+  "&":
+    - token
+    - base_url
+    - user
+color: "#6ac886"
+isPrivate: false
+metaSortKey: 1694682169925

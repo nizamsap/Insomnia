@@ -1,0 +1,18 @@
+_id: env_874e3f7bd17d4da8afafb8b6ade3b1e4
+type: Environment
+parentId: env_d29a298242a6423fbcdaaf6518d4205a
+modified: 1694687220077
+created: 1694682855842
+name: Staging
+data:
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyLnVzYSIsImVpZCI6ImFiZTAzMDkwLWVhMTUtMTFlOS04ZTdhLTdkZDljNTBmYTFmYSIsImlzcyI6ImNvbS5zYXAuY3JtLmlhbSIsImxhbmd1YWdlIjoiZW4iLCJ0eXAiOiIxIiwibm9uIjoiTjNaZmFSaHpOc0FXVHhleHJjN0VETDlkRDJjIiwibG9jYWxlIjoiZW4tVVMiLCJzcGlkIjoiYWJmNGEzNTMtZWExNS0xMWU5LThmYTctZjkyYTUxNmZlNzUxIiwiYXVkIjoibnMtc3RhZ2luZy5jeG0tc2FsZXNjbG91ZC5jb20iLCJ1aWQiOiJhYmY0YTM1My1lYTE1LTExZTktOGZhNy1mOTJhNTE2ZmU3NTEiLCJjNGMiOmZhbHNlLCJ6aWQiOiI1ZDk0ZTQ0NmNkM2NkYzZmN2MzMjRjNTAiLCJydHYiOjg2NDAwLCJleHAiOjE1ODM4NTA2NzgsImFpZCI6Im5zIn0.uMBLEdm2BdMRk64QG2pIbnOYUCGXchqu70NToZMWaiI
+  user: user.usa
+  base_url: https://ns-staging.cxm-salescloud.com
+dataPropertyOrder:
+  "&":
+    - token
+    - user
+    - base_url
+color: "#6ac886"
+isPrivate: false
+metaSortKey: 1694682169875

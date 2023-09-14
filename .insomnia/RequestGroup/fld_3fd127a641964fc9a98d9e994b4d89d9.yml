@@ -1,0 +1,17 @@
+_id: fld_3fd127a641964fc9a98d9e994b4d89d9
+type: RequestGroup
+parentId: wrk_1998a6995d074657a45c6fa42be19193
+modified: 1694687487951
+created: 1694687415391
+name: Utilities Test Production
+description: ""
+environment:
+  base_url: https://my1000005.de1.test.crm.cloud.sap
+  user: serviceagent01
+  pwd: Welcome1
+environmentPropertyOrder:
+  "&":
+    - base_url
+    - user
+    - pwd
+metaSortKey: -1694682685910

@@ -1,0 +1,22 @@
+_id: fld_7f0b62f994b04cff968bd8e5615b0f05
+type: RequestGroup
+parentId: wrk_1998a6995d074657a45c6fa42be19193
+modified: 1694689868913
+created: 1694682855854
+name: NS Staging
+description: ""
+environment:
+  token: Response => {% response 'body', 'req_6f5687a4227a4f86aae40aa726768e77',
+    'b64::JC52YWx1ZS5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', _.expires_in %}
+  user: user.usa
+  base_url: https://ns-staging.cxm-salescloud.com
+  expires_in: Response => {% response 'body',
+    'req_6f5687a4227a4f86aae40aa726768e77',
+    'b64::JC52YWx1ZS5leHBpcmVzX2lu::46b', 'when-expired', _.expires_in %}
+environmentPropertyOrder:
+  "&":
+    - token
+    - user
+    - base_url
+    - expires_in
+metaSortKey: -1694687537978

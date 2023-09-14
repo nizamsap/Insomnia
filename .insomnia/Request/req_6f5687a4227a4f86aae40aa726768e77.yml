@@ -1,0 +1,30 @@
+_id: req_6f5687a4227a4f86aae40aa726768e77
+type: Request
+parentId: fld_7f0b62f994b04cff968bd8e5615b0f05
+modified: 1694687377688
+created: 1694683254571
+url: "{{ _.base_url }}/{{ _.version }}/iam-service/token"
+name: Login
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_033f4cdaab3b44bb84f51eab6bbf6758
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication:
+  type: basic
+  useISO88591: true
+  disabled: false
+  username: "{{ _.user }}"
+  password: "{{ _.pwd }}"
+metaSortKey: -1694687303619
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

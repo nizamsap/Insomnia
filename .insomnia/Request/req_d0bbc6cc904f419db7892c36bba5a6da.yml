@@ -1,0 +1,32 @@
+_id: req_d0bbc6cc904f419db7892c36bba5a6da
+type: Request
+parentId: fld_7f0b62f994b04cff968bd8e5615b0f05
+modified: 1694689819267
+created: 1694687964902
+url: "{{ _.base_url }}/{{ _.version }}/premise-service/premise"
+name: Top Query
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: $top
+    value: "30"
+    id: pair_ea69cb8ead7f41f5a845cf69d9256914
+headers:
+  - name: User-x-sap-crm-token
+    value: "{{ _.token }}"
+    id: pair_752cbab4a462480db74e8f226322d45d
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.user }}"
+  password: "{{ _.pwd }}"
+metaSortKey: -1694687289740.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
